@@ -75,7 +75,9 @@ new TestRunner({
     database: 'sailspg',
     port: 5432,
     schema: true,
-    ssl: false
+    ssl: false,
+    memcachedServer: "127.0.0.1:11211",
+    memcachedTimeout: 10
   },
 
   failOnError: true,

@@ -27,7 +27,7 @@
     "should": "*",
     "waterline-adapter-tests": "~0.10.7",
     "captains-log": "~0.11.1",
-    "memcached" : "*",
+    "memcached" : "*"
   },
   "scripts": {
     "test": "make test"
